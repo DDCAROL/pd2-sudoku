@@ -151,8 +151,6 @@ void Sudoku::changeRow(int a,int b){
 										    }
 }
 void Sudoku::changeCol(int a,int b){
-	    readIn();
-		    printMap();
 			    int temp[9][3];
 				    for (int i=0; i<9; i++) {
 						        for (int j=0; j<3; j++) {
